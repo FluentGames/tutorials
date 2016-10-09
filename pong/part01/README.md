@@ -23,7 +23,7 @@ First we create a hello world in HTML
 
 	```html
 	<head>
-	    <link rel="stylesheet" href="style.css" />
+	    <link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	```
 
@@ -41,7 +41,7 @@ First we create a hello world in HTML
 	```diff
 	-Hello World
 	+<div id="gamediv">
-	+</div`>
+	+</div>
 	```
 
 	after this step you should have the following files:
@@ -63,7 +63,10 @@ First we create a hello world in HTML
 	    <script type="text/javascript" src="game.js" ></script>
 	</div>
 	```
-
+6. Add this into our head in html:
+```html
+	<script src="game.js"></script>
+```
 	add a new file game.js with the contents:
 
 	```javascript
@@ -75,9 +78,9 @@ First we create a hello world in HTML
 	intro();
 	```
 
-6.	If you use the browser to view the file this is what you should see:
+7.	If you use the browser to view the file this is what you should see:
 
-7.	We'll draw a ball this time
+8.	We'll draw a ball this time
 
 	```javascript
 	function draw_ball(x, y){
@@ -97,9 +100,9 @@ First we create a hello world in HTML
 	}
 	```
 
-8.	Let's use the browser to see what we've done
+9.	Let's use the browser to see what we've done
 
-9.	It's kind of impressive to have a ball but you know what's more impressive? A moving ball of course.
+10.	It's kind of impressive to have a ball but you know what's more impressive? A moving ball of course.
 
 	```javascript
 	var ball;
@@ -124,4 +127,4 @@ First we create a hello world in HTML
 	}
 	```
 
-10.	Now let's take a look what we have One small step for
+11.	Now let's take a look what we have One small step for
