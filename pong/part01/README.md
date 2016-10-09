@@ -5,7 +5,7 @@ We'll create a skeleton project and show a empty canvas.
 
 First we create a hello world in HTML
 
-1.	Create a index.html file and enter the following test test
+1.	Create a index.html file and enter the following
 
 	```html
 	<html>
@@ -16,6 +16,8 @@ First we create a hello world in HTML
 	```
 
 2.	Use a browser to view the HTML file
+
+	![part01-02](img/part01-02.png)
 
 3.	Now we'll add a head element between the <html> and <body>. We'll include a css style sheet
 
