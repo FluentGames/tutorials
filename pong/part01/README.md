@@ -1,5 +1,5 @@
-Part-01 - Fluent Games Pong tutorial
-====================================
+Part 1: Creating the project and setup canvas
+=============================================
 
 We'll create a skeleton project and show a empty canvas.
 
@@ -63,10 +63,13 @@ First we create a hello world in HTML
 	    <script type="text/javascript" src="game.js" ></script>
 	</div>
 	```
-6. Add this into our head in html:
-```html
-	<script src="game.js"></script>
-```
+
+6.	Add this into our head in html:
+
+	```html
+	    <script src="game.js"></script>
+	```
+
 	add a new file game.js with the contents:
 
 	```javascript
@@ -110,8 +113,6 @@ First we create a hello world in HTML
 	    ...
 	  update()
 	}
-
-
 	function update(){
 	  ctx.clearRect(0, 0, canvas.width, canvas.height);
 	  draw_ball(ball.x, ball.y)
@@ -119,8 +120,6 @@ First we create a hello world in HTML
 	  ball.x += 5
 	  ball.y += 3
 	}
-
-
 	ball ={
 	  x: 400,
 	  y: 200
